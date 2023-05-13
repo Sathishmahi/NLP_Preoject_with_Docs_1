@@ -2,3 +2,7 @@
 prepare_data:
   split: 0.3
   seed: 2023
+
+featurize:
+  no_of_data: 2500
+  n_grams: 2
