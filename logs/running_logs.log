@@ -1,0 +1,48 @@
+[2023-05-13 14:38:02,586: INFO: stage_01_preparation_data]: 
+********************
+[2023-05-13 14:38:02,586: INFO: stage_01_preparation_data]: >>>>> stage TRAIN_TEST_XML2TSV started <<<<<
+[2023-05-13 14:38:02,589: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-05-13 14:38:02,590: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-05-13 14:38:02,590: ERROR: stage_01_preparation_data]: urlretrieve() got an unexpected keyword argument 'file_name'
+Traceback (most recent call last):
+  File "src/stage_01_preparation_data.py", line 57, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "src/stage_01_preparation_data.py", line 34, in main
+    download_data(url=data_url,file_path=file_path)
+  File "src/stage_01_preparation_data.py", line 23, in download_data
+    urlretrieve(url=url,file_name=file_path)
+TypeError: urlretrieve() got an unexpected keyword argument 'file_name'
+[2023-05-13 14:38:29,049: INFO: stage_01_preparation_data]: 
+********************
+[2023-05-13 14:38:29,049: INFO: stage_01_preparation_data]: >>>>> stage TRAIN_TEST_XML2TSV started <<<<<
+[2023-05-13 14:38:29,052: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-05-13 14:38:29,053: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-05-13 14:38:31,806: ERROR: stage_01_preparation_data]: [Errno 2] No such file or directory: 'data/data.xml'
+Traceback (most recent call last):
+  File "src/stage_01_preparation_data.py", line 57, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "src/stage_01_preparation_data.py", line 34, in main
+    download_data(url=data_url,file_path=file_path)
+  File "src/stage_01_preparation_data.py", line 23, in download_data
+    urlretrieve(url=url,filename=file_path)
+  File "/config/workspace/env/lib/python3.7/urllib/request.py", line 257, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'data/data.xml'
+[2023-05-13 14:39:22,441: INFO: stage_01_preparation_data]: 
+********************
+[2023-05-13 14:39:22,441: INFO: stage_01_preparation_data]: >>>>> stage TRAIN_TEST_XML2TSV started <<<<<
+[2023-05-13 14:39:22,444: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-05-13 14:39:22,444: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-05-13 14:39:22,445: INFO: common]: created directory at: data
+[2023-05-13 14:39:22,744: INFO: common]: created directory at: artifacts/prepared
+[2023-05-13 14:39:22,744: INFO: stage_01_preparation_data]: >>>>> stage TRAIN_TEST_XML2TSV completed!<<<<<
+
+[2023-05-13 15:26:28,651: INFO: stage_01_preparation_data]: 
+********************
+[2023-05-13 15:26:28,652: INFO: stage_01_preparation_data]: >>>>> stage TRAIN_TEST_XML2TSV started <<<<<
+[2023-05-13 15:26:28,654: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-05-13 15:26:28,655: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-05-13 15:26:28,655: INFO: common]: created directory at: data
+[2023-05-13 15:26:32,095: INFO: common]: created directory at: artifacts/prepared
+[2023-05-13 15:26:33,645: INFO: stage_01_preparation_data]: >>>>> stage TRAIN_TEST_XML2TSV completed!<<<<<
+

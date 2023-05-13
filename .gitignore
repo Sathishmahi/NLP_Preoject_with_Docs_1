@@ -140,4 +140,8 @@ configs/secrets.yaml
 # add your env folder here if its there
 
 
+### custome ignore
+*.xml
+*.log
+*.tsv
 
