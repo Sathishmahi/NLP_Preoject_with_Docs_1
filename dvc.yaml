@@ -22,7 +22,27 @@ stages:
     cmd: python src/stage_03_training.py
     deps:
     - src/stage_03_training.py
-    - artifacts/features
+    - artifacts/features/train.pkl
     - src/utils
     outs:
     - artifacts/model
+  
+  evaluate:
+    cmd: python src/stage_04_eval.py
+    deps:
+    - src/stage_04_eval.py
+    - src/utils
+    - artifacts/features/test.pkl
+    - artifacts/model/model.pkl
+    metrics:
+      - scores.json:
+          cache: false
+    plots:
+      - prc.json:
+          cache: false
+          x: recall
+          y: precision
+      - roc.json:
+          cache: false
+          x: false_positive
+          y: true_positive
