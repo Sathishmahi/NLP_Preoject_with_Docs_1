@@ -1,13 +1,12 @@
-
 prepare_data:
   split: 0.3
   seed: 2023
 
 
 featurize:
-  no_of_features: 2500
-  n_grams: 2
-  column_names: [id,text,label]
+  no_of_features: 2000
+  n_grams: 3
+  column_names: [id, text, label]
 
 
 train:
