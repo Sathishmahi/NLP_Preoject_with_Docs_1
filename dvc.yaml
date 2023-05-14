@@ -4,7 +4,7 @@ stages:
     cmd: python src/stage_01_preparation_data.py
     deps:
     - src/stage_01_preparation_data.py
-    - data/data.xml
+    # - data/data.xml
     - src/utils
     outs:
     - artifacts/prepared
