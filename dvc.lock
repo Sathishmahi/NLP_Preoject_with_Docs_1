@@ -37,3 +37,22 @@ stages:
       md5: d5ac9a8962890412a0f4d201a6662017.dir
       size: 6016702
       nfiles: 2
+  training:
+    cmd: python src/stage_03_training.py
+    deps:
+    - path: artifacts/features
+      md5: d5ac9a8962890412a0f4d201a6662017.dir
+      size: 6016702
+      nfiles: 2
+    - path: src/stage_03_training.py
+      md5: 4672377099e97a5b06587488fb591893
+      size: 2416
+    - path: src/utils
+      md5: 5d778cc5d64f9c47a5f6c890f7cfca36.dir
+      size: 5633
+      nfiles: 6
+    outs:
+    - path: artifacts/model
+      md5: 9b4f428acfabf428acdb7a153d20f8f3.dir
+      size: 12418560
+      nfiles: 1

@@ -17,3 +17,12 @@ stages:
     - src/utils
     outs:
     - artifacts/features
+
+  training:
+    cmd: python src/stage_03_training.py
+    deps:
+    - src/stage_03_training.py
+    - artifacts/features
+    - src/utils
+    outs:
+    - artifacts/model

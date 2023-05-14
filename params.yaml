@@ -8,3 +8,10 @@ featurize:
   no_of_features: 2500
   n_grams: 2
   column_names: [id,text,label]
+
+
+train:
+  seed: 2023
+  n_estimators: 150
+  min_split: 18
+  n_jobs: -1
