@@ -1,8 +1,19 @@
-# add stages here 
-# stages:
-#   stage_name:
-#     cmd: python src/stage_01______.py
-#     deps:
-#     - src/stage_01______.py
-#     outs:
-#     - output_data_of_file_path
+
+stages:
+  perpare_data:
+    cmd: python src/stage_01_preparation_data.py
+    deps:
+    - src/stage_01_preparation_data.py
+    - data/data.xml
+    - src/utils
+    outs:
+    - artifacts/prepared
+
+  featurize_data:
+    cmd: python src/stage_02_featurization.py
+    deps:
+    - src/stage_02_featurization.py
+    - artifacts/prepared
+    - src/utils
+    outs:
+    - artifacts/features
