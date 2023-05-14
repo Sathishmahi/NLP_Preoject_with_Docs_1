@@ -1,6 +1,6 @@
 ### dependency
 tqdm
-dvc
+dvc==2.0.2
 pandas
 numpy
 PyYAML
