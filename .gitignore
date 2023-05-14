@@ -144,4 +144,5 @@ configs/secrets.yaml
 *.xml
 *.log
 *.tsv
+*.pkl
 
