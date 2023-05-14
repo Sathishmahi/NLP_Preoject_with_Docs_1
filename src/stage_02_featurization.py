@@ -3,7 +3,7 @@ import os
 import shutil
 from tqdm import tqdm
 import logging
-from src.utils.common import read_yaml, create_directories,get_df,to_save_pkl
+from src.utils.common import read_yaml, create_directories,get_df,save_matrix
 import random
 from pathlib import Path
 from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer
@@ -55,6 +55,8 @@ def main(config_path, params_path):
     bag_of_words.fit(train_text)
     train_binary_matrix=bag_of_words.transform(train_text)
 
+    # print(train_binary_matrix.shape)
+
     tfidf=TfidfTransformer(smooth_idf=False)
     tfidf.fit(train_binary_matrix)
     tfidf_train_matrix=tfidf.transform(train_binary_matrix)
@@ -63,11 +65,15 @@ def main(config_path, params_path):
     test_text=df_test.text.str.lower().values.astype('U')
     test_binary_matrix=bag_of_words.transform(test_text)
     tfidf_test_matrix=tfidf.transform(test_binary_matrix)
+    print(tfidf_train_matrix.shape)
+    print(tfidf_test_matrix.shape)
 
     train_pkl=os.path.join(feature_dir_path,artifacts_content.get("FEATURIZED_DATA_TRAIN"))
     test_pkl=os.path.join(feature_dir_path,artifacts_content.get("FEATURIZED_DATA_TEST"))
 
-    to_save_pkl(file_paths=[Path(train_pkl),Path(test_pkl)], objs=[tfidf_train_matrix,tfidf_test_matrix])
+    save_matrix(df_train, tfidf_train_matrix, train_pkl)
+    save_matrix(df_test, tfidf_test_matrix, test_pkl)
+
 
 if __name__ == '__main__':
     args = argparse.ArgumentParser()

@@ -5,12 +5,14 @@ import time
 import pandas as pd
 import pickle
 import json
+import numpy as np
 from pathlib import Path
-
+import scipy.sparse as sparse
+import  joblib 
 
 def get_df(file_path:Path,column_names:list,sep:str="\t",
             header=None,encoding="utf8")->pd.DataFrame:
-    df = pd.read_csv(file_path,sep=sep,header=header,encoding=encoding,names=column_names)
+    df = pd.read_csv(file_path,sep=sep,encoding=encoding)
     logging.info(f'input dataframe path {file_path}  data frame size is {df.shape}')
     return df
 def read_yaml(path_to_yaml: str) -> dict:
@@ -24,12 +26,15 @@ def create_directories(path_to_directories: list) -> None:
         os.makedirs(path, exist_ok=True)
         logging.info(f"created directory at: {path}")
 
-def to_save_pkl(file_paths:list,objs):
-    if len(file_paths)!=len(objs):
-        raise Exception("file paths and objs list must be a same len")
-    for file_path,obj in zip(file_paths,objs): 
-        with open(file_path,'wb') as pkl_file:
-            pickle.dump(obj=obj, file=pkl_file)
+def save_matrix(df, text_matrix, out_path):
+    pid_matrix = sparse.csr_matrix(df.iloc[:,0].astype(np.int64)).T
+    label_matrix = sparse.csr_matrix(df.iloc[:,2].astype(np.int64)).T
+
+    result = sparse.hstack([pid_matrix, label_matrix, text_matrix], format="csr")
+
+    msg = f"The output matrix saved at {out_path} of shape: {result.shape}"
+    logging.info(msg)
+    joblib.dump(result, out_path) 
 
 def save_json(path: str, data: dict) -> None:
     with open(path, "w") as f:

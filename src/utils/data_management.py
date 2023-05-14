@@ -4,8 +4,10 @@ import xml.etree.ElementTree as et
 import re
 # from src.stage_01_preparation_data import logging
 
-def process_posts(fd_in,fd_out_train,fd_out_test,target_tag,split):
+def process_posts(fd_in,fd_out_train,fd_out_test,target_tag,split,column_names:list):
     line_no=1
+    fd_out_test.write(f"{column_names[0]}\t{column_names[1]}\t{column_names[2]}\n")
+    fd_out_train.write(f"{column_names[0]}\t{column_names[1]}\t{column_names[2]}\n")
     for line_info in tqdm(fd_in):
         try:
             fd_write= fd_out_train if random.random()>split else fd_out_test
