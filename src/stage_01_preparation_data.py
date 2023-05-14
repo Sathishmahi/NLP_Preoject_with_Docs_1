@@ -48,11 +48,13 @@ def main(config_path, params_path):
     train_data_path=os.path.join(preapred_data_dir,artifacts_content.get('TRAIN_DATA'))
     test_data_path=os.path.join(preapred_data_dir,artifacts_content.get('TEST_DATA'))
 
+    featurize_content=params.get("featurize")
+    column_names=featurize_content.get("column_names")
     encode="utf8"
     with open(file=file_path,encoding=encode) as fd_in:
         with open(file=train_data_path,encoding=encode,mode="w") as fd_out_train:
             with open(file=test_data_path,encoding=encode,mode="w") as fd_out_test:
-                process_posts(fd_in,fd_out_train,fd_out_test,"<python>",split)
+                process_posts(fd_in,fd_out_train,fd_out_test,"<python>",split,column_names)
 
 
 if __name__ == '__main__':
