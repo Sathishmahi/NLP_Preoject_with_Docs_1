@@ -1,0 +1,4806 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DVC Plot</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.10.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.5.1"></script>
+</head>
+<body>
+    <div id = "plot0"></div>
+<script type = "text/javascript">
+    var spec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "data": {
+        "values": [
+    {
+        "false_positive": 0.0,
+        "rev": "workspace",
+        "thersold": 1.7177106219010363,
+        "true_positive": 0.0
+    },
+    {
+        "false_positive": 0.006756756756756757,
+        "rev": "workspace",
+        "thersold": 0.7177106219010364,
+        "true_positive": 0.0
+    },
+    {
+        "false_positive": 0.0472972972972973,
+        "rev": "workspace",
+        "thersold": 0.6127291783806265,
+        "true_positive": 0.0
+    },
+    {
+        "false_positive": 0.0472972972972973,
+        "rev": "workspace",
+        "thersold": 0.6073401865199525,
+        "true_positive": 0.00013550135501355014
+    },
+    {
+        "false_positive": 0.05405405405405406,
+        "rev": "workspace",
+        "thersold": 0.59954733211667,
+        "true_positive": 0.00013550135501355014
+    },
+    {
+        "false_positive": 0.05405405405405406,
+        "rev": "workspace",
+        "thersold": 0.5325692064586363,
+        "true_positive": 0.0005420054200542005
+    },
+    {
+        "false_positive": 0.07432432432432433,
+        "rev": "workspace",
+        "thersold": 0.47903430463717567,
+        "true_positive": 0.0005420054200542005
+    },
+    {
+        "false_positive": 0.07432432432432433,
+        "rev": "workspace",
+        "thersold": 0.46779116575811525,
+        "true_positive": 0.0006775067750677507
+    },
+    {
+        "false_positive": 0.08783783783783784,
+        "rev": "workspace",
+        "thersold": 0.4648073914253635,
+        "true_positive": 0.0006775067750677507
+    },
+    {
+        "false_positive": 0.08783783783783784,
+        "rev": "workspace",
+        "thersold": 0.45085542545764706,
+        "true_positive": 0.0008130081300813008
+    },
+    {
+        "false_positive": 0.0945945945945946,
+        "rev": "workspace",
+        "thersold": 0.44849606285774496,
+        "true_positive": 0.0008130081300813008
+    },
+    {
+        "false_positive": 0.0945945945945946,
+        "rev": "workspace",
+        "thersold": 0.41002380952380957,
+        "true_positive": 0.0016260162601626016
+    },
+    {
+        "false_positive": 0.10810810810810811,
+        "rev": "workspace",
+        "thersold": 0.39526780766875425,
+        "true_positive": 0.0016260162601626016
+    },
+    {
+        "false_positive": 0.10810810810810811,
+        "rev": "workspace",
+        "thersold": 0.37490584895131,
+        "true_positive": 0.0020325203252032522
+    },
+    {
+        "false_positive": 0.12837837837837837,
+        "rev": "workspace",
+        "thersold": 0.3514881952358235,
+        "true_positive": 0.0020325203252032522
+    },
+    {
+        "false_positive": 0.12837837837837837,
+        "rev": "workspace",
+        "thersold": 0.34369575233077704,
+        "true_positive": 0.0024390243902439024
+    },
+    {
+        "false_positive": 0.13513513513513514,
+        "rev": "workspace",
+        "thersold": 0.34195586913911685,
+        "true_positive": 0.0024390243902439024
+    },
+    {
+        "false_positive": 0.13513513513513514,
+        "rev": "workspace",
+        "thersold": 0.33752902614402464,
+        "true_positive": 0.0027100271002710027
+    },
+    {
+        "false_positive": 0.14189189189189189,
+        "rev": "workspace",
+        "thersold": 0.3346978417221989,
+        "true_positive": 0.0027100271002710027
+    },
+    {
+        "false_positive": 0.14189189189189189,
+        "rev": "workspace",
+        "thersold": 0.3318315005782946,
+        "true_positive": 0.002981029810298103
+    },
+    {
+        "false_positive": 0.1554054054054054,
+        "rev": "workspace",
+        "thersold": 0.327856592336872,
+        "true_positive": 0.002981029810298103
+    },
+    {
+        "false_positive": 0.1554054054054054,
+        "rev": "workspace",
+        "thersold": 0.327641576137918,
+        "true_positive": 0.0031165311653116533
+    },
+    {
+        "false_positive": 0.17567567567567569,
+        "rev": "workspace",
+        "thersold": 0.3192482116553324,
+        "true_positive": 0.0031165311653116533
+    },
+    {
+        "false_positive": 0.17567567567567569,
+        "rev": "workspace",
+        "thersold": 0.3183192207106253,
+        "true_positive": 0.0035230352303523035
+    },
+    {
+        "false_positive": 0.17567567567567569,
+        "rev": "workspace",
+        "thersold": 0.30325974629235497,
+        "true_positive": 0.0040650406504065045
+    },
+    {
+        "false_positive": 0.18243243243243243,
+        "rev": "workspace",
+        "thersold": 0.2990948856308418,
+        "true_positive": 0.0040650406504065045
+    },
+    {
+        "false_positive": 0.18243243243243243,
+        "rev": "workspace",
+        "thersold": 0.2955832148069408,
+        "true_positive": 0.004336043360433604
+    },
+    {
+        "false_positive": 0.20270270270270271,
+        "rev": "workspace",
+        "thersold": 0.29089816442703875,
+        "true_positive": 0.004336043360433604
+    },
+    {
+        "false_positive": 0.20270270270270271,
+        "rev": "workspace",
+        "thersold": 0.28427006294866936,
+        "true_positive": 0.004607046070460705
+    },
+    {
+        "false_positive": 0.22297297297297297,
+        "rev": "workspace",
+        "thersold": 0.28074654016696965,
+        "true_positive": 0.004607046070460705
+    },
+    {
+        "false_positive": 0.22297297297297297,
+        "rev": "workspace",
+        "thersold": 0.2752168329549134,
+        "true_positive": 0.005149051490514906
+    },
+    {
+        "false_positive": 0.22972972972972974,
+        "rev": "workspace",
+        "thersold": 0.2750901694762112,
+        "true_positive": 0.005149051490514906
+    },
+    {
+        "false_positive": 0.22972972972972974,
+        "rev": "workspace",
+        "thersold": 0.2721361950751275,
+        "true_positive": 0.005420054200542005
+    },
+    {
+        "false_positive": 0.24324324324324326,
+        "rev": "workspace",
+        "thersold": 0.2698171551369019,
+        "true_positive": 0.005420054200542005
+    },
+    {
+        "false_positive": 0.24324324324324326,
+        "rev": "workspace",
+        "thersold": 0.2538888888888889,
+        "true_positive": 0.007181571815718157
+    },
+    {
+        "false_positive": 0.25,
+        "rev": "workspace",
+        "thersold": 0.2528020667342111,
+        "true_positive": 0.007181571815718157
+    },
+    {
+        "false_positive": 0.25,
+        "rev": "workspace",
+        "thersold": 0.252531959322977,
+        "true_positive": 0.007317073170731708
+    },
+    {
+        "false_positive": 0.25675675675675674,
+        "rev": "workspace",
+        "thersold": 0.2504557766875669,
+        "true_positive": 0.007317073170731708
+    },
+    {
+        "false_positive": 0.25675675675675674,
+        "rev": "workspace",
+        "thersold": 0.2486602809706258,
+        "true_positive": 0.007452574525745257
+    },
+    {
+        "false_positive": 0.2635135135135135,
+        "rev": "workspace",
+        "thersold": 0.24682633986545055,
+        "true_positive": 0.007452574525745257
+    },
+    {
+        "false_positive": 0.2635135135135135,
+        "rev": "workspace",
+        "thersold": 0.24288888888888888,
+        "true_positive": 0.007859078590785908
+    },
+    {
+        "false_positive": 0.2702702702702703,
+        "rev": "workspace",
+        "thersold": 0.24265714231868926,
+        "true_positive": 0.007859078590785908
+    },
+    {
+        "false_positive": 0.2702702702702703,
+        "rev": "workspace",
+        "thersold": 0.24198326653297145,
+        "true_positive": 0.007994579945799458
+    },
+    {
+        "false_positive": 0.28378378378378377,
+        "rev": "workspace",
+        "thersold": 0.24103006540286173,
+        "true_positive": 0.007994579945799458
+    },
+    {
+        "false_positive": 0.28378378378378377,
+        "rev": "workspace",
+        "thersold": 0.24032579562953799,
+        "true_positive": 0.008130081300813009
+    },
+    {
+        "false_positive": 0.2905405405405405,
+        "rev": "workspace",
+        "thersold": 0.2400494376974988,
+        "true_positive": 0.008130081300813009
+    },
+    {
+        "false_positive": 0.2905405405405405,
+        "rev": "workspace",
+        "thersold": 0.2398812039998521,
+        "true_positive": 0.008265582655826558
+    },
+    {
+        "false_positive": 0.3108108108108108,
+        "rev": "workspace",
+        "thersold": 0.23819092743273695,
+        "true_positive": 0.008265582655826558
+    },
+    {
+        "false_positive": 0.3108108108108108,
+        "rev": "workspace",
+        "thersold": 0.2361474266474267,
+        "true_positive": 0.00853658536585366
+    },
+    {
+        "false_positive": 0.31756756756756754,
+        "rev": "workspace",
+        "thersold": 0.23376207835101856,
+        "true_positive": 0.00853658536585366
+    },
+    {
+        "false_positive": 0.31756756756756754,
+        "rev": "workspace",
+        "thersold": 0.23307010016127663,
+        "true_positive": 0.008672086720867209
+    },
+    {
+        "false_positive": 0.3310810810810811,
+        "rev": "workspace",
+        "thersold": 0.23181803308941606,
+        "true_positive": 0.008672086720867209
+    },
+    {
+        "false_positive": 0.3310810810810811,
+        "rev": "workspace",
+        "thersold": 0.2191450603892252,
+        "true_positive": 0.01016260162601626
+    },
+    {
+        "false_positive": 0.34459459459459457,
+        "rev": "workspace",
+        "thersold": 0.21346569706910537,
+        "true_positive": 0.01016260162601626
+    },
+    {
+        "false_positive": 0.34459459459459457,
+        "rev": "workspace",
+        "thersold": 0.2063944792160456,
+        "true_positive": 0.010704607046070461
+    },
+    {
+        "false_positive": 0.35135135135135137,
+        "rev": "workspace",
+        "thersold": 0.20540221336016248,
+        "true_positive": 0.010704607046070461
+    },
+    {
+        "false_positive": 0.35135135135135137,
+        "rev": "workspace",
+        "thersold": 0.20497124733279784,
+        "true_positive": 0.01084010840108401
+    },
+    {
+        "false_positive": 0.3581081081081081,
+        "rev": "workspace",
+        "thersold": 0.20284163916113934,
+        "true_positive": 0.01084010840108401
+    },
+    {
+        "false_positive": 0.3581081081081081,
+        "rev": "workspace",
+        "thersold": 0.19690573200722275,
+        "true_positive": 0.011517615176151762
+    },
+    {
+        "false_positive": 0.3581081081081081,
+        "rev": "workspace",
+        "thersold": 0.1961816732650066,
+        "true_positive": 0.011788617886178862
+    },
+    {
+        "false_positive": 0.3581081081081081,
+        "rev": "workspace",
+        "thersold": 0.19603761140819964,
+        "true_positive": 0.011924119241192412
+    },
+    {
+        "false_positive": 0.36486486486486486,
+        "rev": "workspace",
+        "thersold": 0.19547113294217883,
+        "true_positive": 0.011924119241192412
+    },
+    {
+        "false_positive": 0.36486486486486486,
+        "rev": "workspace",
+        "thersold": 0.19414141414141414,
+        "true_positive": 0.012330623306233062
+    },
+    {
+        "false_positive": 0.3716216216216216,
+        "rev": "workspace",
+        "thersold": 0.1927334150150326,
+        "true_positive": 0.012330623306233062
+    },
+    {
+        "false_positive": 0.3716216216216216,
+        "rev": "workspace",
+        "thersold": 0.18798441649003403,
+        "true_positive": 0.013414634146341463
+    },
+    {
+        "false_positive": 0.3783783783783784,
+        "rev": "workspace",
+        "thersold": 0.18709938581390378,
+        "true_positive": 0.013414634146341463
+    },
+    {
+        "false_positive": 0.3783783783783784,
+        "rev": "workspace",
+        "thersold": 0.18652481962481962,
+        "true_positive": 0.013550135501355014
+    },
+    {
+        "false_positive": 0.38513513513513514,
+        "rev": "workspace",
+        "thersold": 0.1860534366217947,
+        "true_positive": 0.013550135501355014
+    },
+    {
+        "false_positive": 0.38513513513513514,
+        "rev": "workspace",
+        "thersold": 0.1790104576240951,
+        "true_positive": 0.014363143631436315
+    },
+    {
+        "false_positive": 0.3918918918918919,
+        "rev": "workspace",
+        "thersold": 0.1789283400046042,
+        "true_positive": 0.014363143631436315
+    },
+    {
+        "false_positive": 0.3918918918918919,
+        "rev": "workspace",
+        "thersold": 0.1779319163852923,
+        "true_positive": 0.014634146341463415
+    },
+    {
+        "false_positive": 0.39864864864864863,
+        "rev": "workspace",
+        "thersold": 0.17782119871257934,
+        "true_positive": 0.014634146341463415
+    },
+    {
+        "false_positive": 0.39864864864864863,
+        "rev": "workspace",
+        "thersold": 0.1707571797922675,
+        "true_positive": 0.015582655826558265
+    },
+    {
+        "false_positive": 0.41216216216216217,
+        "rev": "workspace",
+        "thersold": 0.16672689744451533,
+        "true_positive": 0.015582655826558265
+    },
+    {
+        "false_positive": 0.41216216216216217,
+        "rev": "workspace",
+        "thersold": 0.1666777013058362,
+        "true_positive": 0.015718157181571817
+    },
+    {
+        "false_positive": 0.4189189189189189,
+        "rev": "workspace",
+        "thersold": 0.16615955854632333,
+        "true_positive": 0.015718157181571817
+    },
+    {
+        "false_positive": 0.4189189189189189,
+        "rev": "workspace",
+        "thersold": 0.1650339630795879,
+        "true_positive": 0.015989159891598916
+    },
+    {
+        "false_positive": 0.42567567567567566,
+        "rev": "workspace",
+        "thersold": 0.16497256914975109,
+        "true_positive": 0.015989159891598916
+    },
+    {
+        "false_positive": 0.42567567567567566,
+        "rev": "workspace",
+        "thersold": 0.16354054944405824,
+        "true_positive": 0.016531165311653117
+    },
+    {
+        "false_positive": 0.43243243243243246,
+        "rev": "workspace",
+        "thersold": 0.16345339102500225,
+        "true_positive": 0.016531165311653117
+    },
+    {
+        "false_positive": 0.43243243243243246,
+        "rev": "workspace",
+        "thersold": 0.1588095238095238,
+        "true_positive": 0.017479674796747967
+    },
+    {
+        "false_positive": 0.4391891891891892,
+        "rev": "workspace",
+        "thersold": 0.15760485764558282,
+        "true_positive": 0.017479674796747967
+    },
+    {
+        "false_positive": 0.4391891891891892,
+        "rev": "workspace",
+        "thersold": 0.1520433281426035,
+        "true_positive": 0.01883468834688347
+    },
+    {
+        "false_positive": 0.44594594594594594,
+        "rev": "workspace",
+        "thersold": 0.15195925669959698,
+        "true_positive": 0.01883468834688347
+    },
+    {
+        "false_positive": 0.44594594594594594,
+        "rev": "workspace",
+        "thersold": 0.14716944335920631,
+        "true_positive": 0.01978319783197832
+    },
+    {
+        "false_positive": 0.44594594594594594,
+        "rev": "workspace",
+        "thersold": 0.14707495590828926,
+        "true_positive": 0.02005420054200542
+    },
+    {
+        "false_positive": 0.44594594594594594,
+        "rev": "workspace",
+        "thersold": 0.14567996254052704,
+        "true_positive": 0.02032520325203252
+    },
+    {
+        "false_positive": 0.4527027027027027,
+        "rev": "workspace",
+        "thersold": 0.14406291566754825,
+        "true_positive": 0.02032520325203252
+    },
+    {
+        "false_positive": 0.4527027027027027,
+        "rev": "workspace",
+        "thersold": 0.1435838734157072,
+        "true_positive": 0.020596205962059622
+    },
+    {
+        "false_positive": 0.4594594594594595,
+        "rev": "workspace",
+        "thersold": 0.14296566345998996,
+        "true_positive": 0.020596205962059622
+    },
+    {
+        "false_positive": 0.4594594594594595,
+        "rev": "workspace",
+        "thersold": 0.14170706145706144,
+        "true_positive": 0.02100271002710027
+    },
+    {
+        "false_positive": 0.46621621621621623,
+        "rev": "workspace",
+        "thersold": 0.14142530282290897,
+        "true_positive": 0.02100271002710027
+    },
+    {
+        "false_positive": 0.46621621621621623,
+        "rev": "workspace",
+        "thersold": 0.13867201989368824,
+        "true_positive": 0.022086720867208674
+    },
+    {
+        "false_positive": 0.47297297297297297,
+        "rev": "workspace",
+        "thersold": 0.13830844289810953,
+        "true_positive": 0.022086720867208674
+    },
+    {
+        "false_positive": 0.47297297297297297,
+        "rev": "workspace",
+        "thersold": 0.1295628778857881,
+        "true_positive": 0.024525745257452575
+    },
+    {
+        "false_positive": 0.4797297297297297,
+        "rev": "workspace",
+        "thersold": 0.1292408870913601,
+        "true_positive": 0.024525745257452575
+    },
+    {
+        "false_positive": 0.4797297297297297,
+        "rev": "workspace",
+        "thersold": 0.12313729480396148,
+        "true_positive": 0.025474254742547425
+    },
+    {
+        "false_positive": 0.4864864864864865,
+        "rev": "workspace",
+        "thersold": 0.12311981092548933,
+        "true_positive": 0.025474254742547425
+    },
+    {
+        "false_positive": 0.4864864864864865,
+        "rev": "workspace",
+        "thersold": 0.12081014579290442,
+        "true_positive": 0.026693766937669377
+    },
+    {
+        "false_positive": 0.4864864864864865,
+        "rev": "workspace",
+        "thersold": 0.12067561300467472,
+        "true_positive": 0.026964769647696476
+    },
+    {
+        "false_positive": 0.4864864864864865,
+        "rev": "workspace",
+        "thersold": 0.1102969647603111,
+        "true_positive": 0.02994579945799458
+    },
+    {
+        "false_positive": 0.5,
+        "rev": "workspace",
+        "thersold": 0.10961968784901434,
+        "true_positive": 0.02994579945799458
+    },
+    {
+        "false_positive": 0.5,
+        "rev": "workspace",
+        "thersold": 0.10688564178851079,
+        "true_positive": 0.03116531165311653
+    },
+    {
+        "false_positive": 0.5,
+        "rev": "workspace",
+        "thersold": 0.10666666666666667,
+        "true_positive": 0.03143631436314363
+    },
+    {
+        "false_positive": 0.5,
+        "rev": "workspace",
+        "thersold": 0.10563398405677947,
+        "true_positive": 0.03157181571815718
+    },
+    {
+        "false_positive": 0.5,
+        "rev": "workspace",
+        "thersold": 0.10557013727013727,
+        "true_positive": 0.03184281842818428
+    },
+    {
+        "false_positive": 0.5,
+        "rev": "workspace",
+        "thersold": 0.10343289265598261,
+        "true_positive": 0.032926829268292684
+    },
+    {
+        "false_positive": 0.5067567567567568,
+        "rev": "workspace",
+        "thersold": 0.10329640729640725,
+        "true_positive": 0.03319783197831978
+    },
+    {
+        "false_positive": 0.5067567567567568,
+        "rev": "workspace",
+        "thersold": 0.09672507078133931,
+        "true_positive": 0.036314363143631435
+    },
+    {
+        "false_positive": 0.5135135135135135,
+        "rev": "workspace",
+        "thersold": 0.09661473929120985,
+        "true_positive": 0.036314363143631435
+    },
+    {
+        "false_positive": 0.5135135135135135,
+        "rev": "workspace",
+        "thersold": 0.09375,
+        "true_positive": 0.03753387533875339
+    },
+    {
+        "false_positive": 0.5135135135135135,
+        "rev": "workspace",
+        "thersold": 0.09332840058799348,
+        "true_positive": 0.03956639566395664
+    },
+    {
+        "false_positive": 0.5135135135135135,
+        "rev": "workspace",
+        "thersold": 0.09254364977738241,
+        "true_positive": 0.039701897018970186
+    },
+    {
+        "false_positive": 0.5202702702702703,
+        "rev": "workspace",
+        "thersold": 0.09237078389941038,
+        "true_positive": 0.039701897018970186
+    },
+    {
+        "false_positive": 0.5202702702702703,
+        "rev": "workspace",
+        "thersold": 0.09010953217474957,
+        "true_positive": 0.04078590785907859
+    },
+    {
+        "false_positive": 0.527027027027027,
+        "rev": "workspace",
+        "thersold": 0.08954129696778686,
+        "true_positive": 0.04078590785907859
+    },
+    {
+        "false_positive": 0.527027027027027,
+        "rev": "workspace",
+        "thersold": 0.08849787678208733,
+        "true_positive": 0.04173441734417344
+    },
+    {
+        "false_positive": 0.5337837837837838,
+        "rev": "workspace",
+        "thersold": 0.0883701820214834,
+        "true_positive": 0.04173441734417344
+    },
+    {
+        "false_positive": 0.5337837837837838,
+        "rev": "workspace",
+        "thersold": 0.0877810971058492,
+        "true_positive": 0.04227642276422764
+    },
+    {
+        "false_positive": 0.5405405405405406,
+        "rev": "workspace",
+        "thersold": 0.08768971200043595,
+        "true_positive": 0.04227642276422764
+    },
+    {
+        "false_positive": 0.5405405405405406,
+        "rev": "workspace",
+        "thersold": 0.08727979368711633,
+        "true_positive": 0.042818428184281845
+    },
+    {
+        "false_positive": 0.5472972972972973,
+        "rev": "workspace",
+        "thersold": 0.08697324862084276,
+        "true_positive": 0.042818428184281845
+    },
+    {
+        "false_positive": 0.5472972972972973,
+        "rev": "workspace",
+        "thersold": 0.0790011895497741,
+        "true_positive": 0.048102981029810296
+    },
+    {
+        "false_positive": 0.5540540540540541,
+        "rev": "workspace",
+        "thersold": 0.07896214428398335,
+        "true_positive": 0.048102981029810296
+    },
+    {
+        "false_positive": 0.5540540540540541,
+        "rev": "workspace",
+        "thersold": 0.07278632478632478,
+        "true_positive": 0.052710027100271
+    },
+    {
+        "false_positive": 0.5540540540540541,
+        "rev": "workspace",
+        "thersold": 0.07275899087493291,
+        "true_positive": 0.052981029810298105
+    },
+    {
+        "false_positive": 0.5608108108108109,
+        "rev": "workspace",
+        "thersold": 0.07272422113108389,
+        "true_positive": 0.052981029810298105
+    },
+    {
+        "false_positive": 0.5608108108108109,
+        "rev": "workspace",
+        "thersold": 0.07045293841960508,
+        "true_positive": 0.055284552845528454
+    },
+    {
+        "false_positive": 0.5675675675675675,
+        "rev": "workspace",
+        "thersold": 0.07032211393503766,
+        "true_positive": 0.055284552845528454
+    },
+    {
+        "false_positive": 0.5675675675675675,
+        "rev": "workspace",
+        "thersold": 0.06894444444444445,
+        "true_positive": 0.05718157181571816
+    },
+    {
+        "false_positive": 0.5743243243243243,
+        "rev": "workspace",
+        "thersold": 0.06875928601517135,
+        "true_positive": 0.05718157181571816
+    },
+    {
+        "false_positive": 0.5743243243243243,
+        "rev": "workspace",
+        "thersold": 0.06674346614153027,
+        "true_positive": 0.05880758807588076
+    },
+    {
+        "false_positive": 0.581081081081081,
+        "rev": "workspace",
+        "thersold": 0.06614619277662756,
+        "true_positive": 0.05880758807588076
+    },
+    {
+        "false_positive": 0.581081081081081,
+        "rev": "workspace",
+        "thersold": 0.06582645237907725,
+        "true_positive": 0.05921409214092141
+    },
+    {
+        "false_positive": 0.5878378378378378,
+        "rev": "workspace",
+        "thersold": 0.06579717751635446,
+        "true_positive": 0.05921409214092141
+    },
+    {
+        "false_positive": 0.5878378378378378,
+        "rev": "workspace",
+        "thersold": 0.06465331617957362,
+        "true_positive": 0.06084010840108401
+    },
+    {
+        "false_positive": 0.5878378378378378,
+        "rev": "workspace",
+        "thersold": 0.06458392660087817,
+        "true_positive": 0.06124661246612466
+    },
+    {
+        "false_positive": 0.5878378378378378,
+        "rev": "workspace",
+        "thersold": 0.06324421669287152,
+        "true_positive": 0.06314363143631437
+    },
+    {
+        "false_positive": 0.5945945945945946,
+        "rev": "workspace",
+        "thersold": 0.06296664745320485,
+        "true_positive": 0.06314363143631437
+    },
+    {
+        "false_positive": 0.5945945945945946,
+        "rev": "workspace",
+        "thersold": 0.058689862405598765,
+        "true_positive": 0.06802168021680217
+    },
+    {
+        "false_positive": 0.6013513513513513,
+        "rev": "workspace",
+        "thersold": 0.058635249311774953,
+        "true_positive": 0.06802168021680217
+    },
+    {
+        "false_positive": 0.6013513513513513,
+        "rev": "workspace",
+        "thersold": 0.055293110849605656,
+        "true_positive": 0.07222222222222222
+    },
+    {
+        "false_positive": 0.6081081081081081,
+        "rev": "workspace",
+        "thersold": 0.05520058453567227,
+        "true_positive": 0.07222222222222222
+    },
+    {
+        "false_positive": 0.6081081081081081,
+        "rev": "workspace",
+        "thersold": 0.054692723001494935,
+        "true_positive": 0.07344173441734417
+    },
+    {
+        "false_positive": 0.6148648648648649,
+        "rev": "workspace",
+        "thersold": 0.054590973224306547,
+        "true_positive": 0.07344173441734417
+    },
+    {
+        "false_positive": 0.6148648648648649,
+        "rev": "workspace",
+        "thersold": 0.0536531732273151,
+        "true_positive": 0.07425474254742548
+    },
+    {
+        "false_positive": 0.6216216216216216,
+        "rev": "workspace",
+        "thersold": 0.05361367137811925,
+        "true_positive": 0.07425474254742548
+    },
+    {
+        "false_positive": 0.6216216216216216,
+        "rev": "workspace",
+        "thersold": 0.05329531782272031,
+        "true_positive": 0.07493224932249322
+    },
+    {
+        "false_positive": 0.6283783783783784,
+        "rev": "workspace",
+        "thersold": 0.0531312030075188,
+        "true_positive": 0.07493224932249322
+    },
+    {
+        "false_positive": 0.6283783783783784,
+        "rev": "workspace",
+        "thersold": 0.05311111111111111,
+        "true_positive": 0.07520325203252033
+    },
+    {
+        "false_positive": 0.6351351351351351,
+        "rev": "workspace",
+        "thersold": 0.0530702624394014,
+        "true_positive": 0.07520325203252033
+    },
+    {
+        "false_positive": 0.6351351351351351,
+        "rev": "workspace",
+        "thersold": 0.05299603174603175,
+        "true_positive": 0.07547425474254743
+    },
+    {
+        "false_positive": 0.6351351351351351,
+        "rev": "workspace",
+        "thersold": 0.05293386243386243,
+        "true_positive": 0.07574525745257453
+    },
+    {
+        "false_positive": 0.6351351351351351,
+        "rev": "workspace",
+        "thersold": 0.05271313871313871,
+        "true_positive": 0.07628726287262873
+    },
+    {
+        "false_positive": 0.6351351351351351,
+        "rev": "workspace",
+        "thersold": 0.052673698134224456,
+        "true_positive": 0.07655826558265583
+    },
+    {
+        "false_positive": 0.6351351351351351,
+        "rev": "workspace",
+        "thersold": 0.05134801649014542,
+        "true_positive": 0.07791327913279132
+    },
+    {
+        "false_positive": 0.6418918918918919,
+        "rev": "workspace",
+        "thersold": 0.051315392710444725,
+        "true_positive": 0.07791327913279132
+    },
+    {
+        "false_positive": 0.6418918918918919,
+        "rev": "workspace",
+        "thersold": 0.05127589371670225,
+        "true_positive": 0.07818428184281843
+    },
+    {
+        "false_positive": 0.6486486486486487,
+        "rev": "workspace",
+        "thersold": 0.051225552361525234,
+        "true_positive": 0.07818428184281843
+    },
+    {
+        "false_positive": 0.6486486486486487,
+        "rev": "workspace",
+        "thersold": 0.050000915750915746,
+        "true_positive": 0.08035230352303523
+    },
+    {
+        "false_positive": 0.6486486486486487,
+        "rev": "workspace",
+        "thersold": 0.04990373851851453,
+        "true_positive": 0.08062330623306233
+    },
+    {
+        "false_positive": 0.6486486486486487,
+        "rev": "workspace",
+        "thersold": 0.04939241005907672,
+        "true_positive": 0.08116531165311654
+    },
+    {
+        "false_positive": 0.6554054054054054,
+        "rev": "workspace",
+        "thersold": 0.049307405618812805,
+        "true_positive": 0.08116531165311654
+    },
+    {
+        "false_positive": 0.6554054054054054,
+        "rev": "workspace",
+        "thersold": 0.04826437056111305,
+        "true_positive": 0.08292682926829269
+    },
+    {
+        "false_positive": 0.6621621621621622,
+        "rev": "workspace",
+        "thersold": 0.048173735807206214,
+        "true_positive": 0.08292682926829269
+    },
+    {
+        "false_positive": 0.6621621621621622,
+        "rev": "workspace",
+        "thersold": 0.04759463684463685,
+        "true_positive": 0.08441734417344174
+    },
+    {
+        "false_positive": 0.668918918918919,
+        "rev": "workspace",
+        "thersold": 0.04759233941186649,
+        "true_positive": 0.08441734417344174
+    },
+    {
+        "false_positive": 0.668918918918919,
+        "rev": "workspace",
+        "thersold": 0.04756527842243953,
+        "true_positive": 0.08468834688346884
+    },
+    {
+        "false_positive": 0.6756756756756757,
+        "rev": "workspace",
+        "thersold": 0.04737698000857803,
+        "true_positive": 0.08468834688346884
+    },
+    {
+        "false_positive": 0.6756756756756757,
+        "rev": "workspace",
+        "thersold": 0.04479390054390055,
+        "true_positive": 0.09051490514905149
+    },
+    {
+        "false_positive": 0.6756756756756757,
+        "rev": "workspace",
+        "thersold": 0.0447910052910053,
+        "true_positive": 0.09078590785907859
+    },
+    {
+        "false_positive": 0.6756756756756757,
+        "rev": "workspace",
+        "thersold": 0.044299403724703215,
+        "true_positive": 0.09200542005420054
+    },
+    {
+        "false_positive": 0.6824324324324325,
+        "rev": "workspace",
+        "thersold": 0.044291010249429,
+        "true_positive": 0.09200542005420054
+    },
+    {
+        "false_positive": 0.6824324324324325,
+        "rev": "workspace",
+        "thersold": 0.04126268760479287,
+        "true_positive": 0.097289972899729
+    },
+    {
+        "false_positive": 0.6891891891891891,
+        "rev": "workspace",
+        "thersold": 0.041257913568229006,
+        "true_positive": 0.097289972899729
+    },
+    {
+        "false_positive": 0.6891891891891891,
+        "rev": "workspace",
+        "thersold": 0.04029251660359264,
+        "true_positive": 0.09959349593495935
+    },
+    {
+        "false_positive": 0.6891891891891891,
+        "rev": "workspace",
+        "thersold": 0.04024174420726145,
+        "true_positive": 0.09986449864498645
+    },
+    {
+        "false_positive": 0.6891891891891891,
+        "rev": "workspace",
+        "thersold": 0.03898898652261823,
+        "true_positive": 0.1035230352303523
+    },
+    {
+        "false_positive": 0.6959459459459459,
+        "rev": "workspace",
+        "thersold": 0.038963572788275676,
+        "true_positive": 0.1035230352303523
+    },
+    {
+        "false_positive": 0.6959459459459459,
+        "rev": "workspace",
+        "thersold": 0.038218771566597656,
+        "true_positive": 0.1048780487804878
+    },
+    {
+        "false_positive": 0.7027027027027027,
+        "rev": "workspace",
+        "thersold": 0.0382132955220275,
+        "true_positive": 0.1048780487804878
+    },
+    {
+        "false_positive": 0.7027027027027027,
+        "rev": "workspace",
+        "thersold": 0.037109523809523814,
+        "true_positive": 0.1078590785907859
+    },
+    {
+        "false_positive": 0.7027027027027027,
+        "rev": "workspace",
+        "thersold": 0.03700975602688832,
+        "true_positive": 0.108130081300813
+    },
+    {
+        "false_positive": 0.7027027027027027,
+        "rev": "workspace",
+        "thersold": 0.03695876125892294,
+        "true_positive": 0.10853658536585366
+    },
+    {
+        "false_positive": 0.7094594594594594,
+        "rev": "workspace",
+        "thersold": 0.03690865507041978,
+        "true_positive": 0.10853658536585366
+    },
+    {
+        "false_positive": 0.7094594594594594,
+        "rev": "workspace",
+        "thersold": 0.036026936026936025,
+        "true_positive": 0.110840108401084
+    },
+    {
+        "false_positive": 0.7162162162162162,
+        "rev": "workspace",
+        "thersold": 0.03601722442284776,
+        "true_positive": 0.110840108401084
+    },
+    {
+        "false_positive": 0.7162162162162162,
+        "rev": "workspace",
+        "thersold": 0.03545589559572374,
+        "true_positive": 0.11246612466124661
+    },
+    {
+        "false_positive": 0.722972972972973,
+        "rev": "workspace",
+        "thersold": 0.03545287344542128,
+        "true_positive": 0.11246612466124661
+    },
+    {
+        "false_positive": 0.722972972972973,
+        "rev": "workspace",
+        "thersold": 0.03357398157398158,
+        "true_positive": 0.11829268292682926
+    },
+    {
+        "false_positive": 0.7297297297297297,
+        "rev": "workspace",
+        "thersold": 0.03352053502053502,
+        "true_positive": 0.11829268292682926
+    },
+    {
+        "false_positive": 0.7297297297297297,
+        "rev": "workspace",
+        "thersold": 0.03215440115440116,
+        "true_positive": 0.12357723577235773
+    },
+    {
+        "false_positive": 0.7297297297297297,
+        "rev": "workspace",
+        "thersold": 0.03205098505516484,
+        "true_positive": 0.12411924119241192
+    },
+    {
+        "false_positive": 0.7297297297297297,
+        "rev": "workspace",
+        "thersold": 0.03176005885907847,
+        "true_positive": 0.12547425474254742
+    },
+    {
+        "false_positive": 0.7364864864864865,
+        "rev": "workspace",
+        "thersold": 0.03174635658137141,
+        "true_positive": 0.12547425474254742
+    },
+    {
+        "false_positive": 0.7364864864864865,
+        "rev": "workspace",
+        "thersold": 0.030509003074220463,
+        "true_positive": 0.13035230352303523
+    },
+    {
+        "false_positive": 0.7432432432432432,
+        "rev": "workspace",
+        "thersold": 0.030417316887905117,
+        "true_positive": 0.13035230352303523
+    },
+    {
+        "false_positive": 0.7432432432432432,
+        "rev": "workspace",
+        "thersold": 0.028598731146510126,
+        "true_positive": 0.13794037940379403
+    },
+    {
+        "false_positive": 0.75,
+        "rev": "workspace",
+        "thersold": 0.028586391386391383,
+        "true_positive": 0.13794037940379403
+    },
+    {
+        "false_positive": 0.75,
+        "rev": "workspace",
+        "thersold": 0.027723501302815597,
+        "true_positive": 0.14119241192411924
+    },
+    {
+        "false_positive": 0.7567567567567568,
+        "rev": "workspace",
+        "thersold": 0.02771380158034857,
+        "true_positive": 0.14119241192411924
+    },
+    {
+        "false_positive": 0.7567567567567568,
+        "rev": "workspace",
+        "thersold": 0.026489109039109043,
+        "true_positive": 0.14688346883468834
+    },
+    {
+        "false_positive": 0.7567567567567568,
+        "rev": "workspace",
+        "thersold": 0.026406563480092893,
+        "true_positive": 0.14715447154471545
+    },
+    {
+        "false_positive": 0.7567567567567568,
+        "rev": "workspace",
+        "thersold": 0.02555372108541814,
+        "true_positive": 0.15176151761517614
+    },
+    {
+        "false_positive": 0.7635135135135135,
+        "rev": "workspace",
+        "thersold": 0.02554834597049486,
+        "true_positive": 0.15176151761517614
+    },
+    {
+        "false_positive": 0.7635135135135135,
+        "rev": "workspace",
+        "thersold": 0.025291005291005295,
+        "true_positive": 0.15338753387533877
+    },
+    {
+        "false_positive": 0.7702702702702703,
+        "rev": "workspace",
+        "thersold": 0.025254105606291856,
+        "true_positive": 0.15338753387533877
+    },
+    {
+        "false_positive": 0.7702702702702703,
+        "rev": "workspace",
+        "thersold": 0.02499094424094424,
+        "true_positive": 0.15420054200542005
+    },
+    {
+        "false_positive": 0.777027027027027,
+        "rev": "workspace",
+        "thersold": 0.024961816927034322,
+        "true_positive": 0.15420054200542005
+    },
+    {
+        "false_positive": 0.777027027027027,
+        "rev": "workspace",
+        "thersold": 0.02347596308210119,
+        "true_positive": 0.16151761517615176
+    },
+    {
+        "false_positive": 0.7837837837837838,
+        "rev": "workspace",
+        "thersold": 0.023475950592885115,
+        "true_positive": 0.16937669376693767
+    },
+    {
+        "false_positive": 0.7837837837837838,
+        "rev": "workspace",
+        "thersold": 0.0221465761871388,
+        "true_positive": 0.17859078590785907
+    },
+    {
+        "false_positive": 0.7905405405405406,
+        "rev": "workspace",
+        "thersold": 0.022107546048722518,
+        "true_positive": 0.17859078590785907
+    },
+    {
+        "false_positive": 0.7905405405405406,
+        "rev": "workspace",
+        "thersold": 0.02182430213464696,
+        "true_positive": 0.17994579945799458
+    },
+    {
+        "false_positive": 0.7905405405405406,
+        "rev": "workspace",
+        "thersold": 0.021803307610657418,
+        "true_positive": 0.18035230352303522
+    },
+    {
+        "false_positive": 0.7905405405405406,
+        "rev": "workspace",
+        "thersold": 0.021602999874413706,
+        "true_positive": 0.18170731707317073
+    },
+    {
+        "false_positive": 0.7972972972972973,
+        "rev": "workspace",
+        "thersold": 0.02156548389881723,
+        "true_positive": 0.18170731707317073
+    },
+    {
+        "false_positive": 0.7972972972972973,
+        "rev": "workspace",
+        "thersold": 0.021545827266536546,
+        "true_positive": 0.18184281842818428
+    },
+    {
+        "false_positive": 0.8040540540540541,
+        "rev": "workspace",
+        "thersold": 0.02151679510745191,
+        "true_positive": 0.18184281842818428
+    },
+    {
+        "false_positive": 0.8040540540540541,
+        "rev": "workspace",
+        "thersold": 0.021388463760754782,
+        "true_positive": 0.18292682926829268
+    },
+    {
+        "false_positive": 0.8040540540540541,
+        "rev": "workspace",
+        "thersold": 0.02136615263600501,
+        "true_positive": 0.18360433604336043
+    },
+    {
+        "false_positive": 0.8040540540540541,
+        "rev": "workspace",
+        "thersold": 0.0210108516790439,
+        "true_positive": 0.1861788617886179
+    },
+    {
+        "false_positive": 0.8108108108108109,
+        "rev": "workspace",
+        "thersold": 0.02098485916849088,
+        "true_positive": 0.1861788617886179
+    },
+    {
+        "false_positive": 0.8108108108108109,
+        "rev": "workspace",
+        "thersold": 0.019675213675213677,
+        "true_positive": 0.19593495934959348
+    },
+    {
+        "false_positive": 0.8108108108108109,
+        "rev": "workspace",
+        "thersold": 0.019664313946922644,
+        "true_positive": 0.1962059620596206
+    },
+    {
+        "false_positive": 0.8108108108108109,
+        "rev": "workspace",
+        "thersold": 0.01964213564213564,
+        "true_positive": 0.19634146341463415
+    },
+    {
+        "false_positive": 0.8175675675675675,
+        "rev": "workspace",
+        "thersold": 0.01961412549038279,
+        "true_positive": 0.19634146341463415
+    },
+    {
+        "false_positive": 0.8175675675675675,
+        "rev": "workspace",
+        "thersold": 0.01930471668834378,
+        "true_positive": 0.19823848238482386
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.01930222056762708,
+        "true_positive": 0.20203252032520325
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.019141913916948982,
+        "true_positive": 0.2040650406504065
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.019131460856873148,
+        "true_positive": 0.2043360433604336
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.016448297347029094,
+        "true_positive": 0.22872628726287264
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.01643984507071444,
+        "true_positive": 0.22899728997289973
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.016103530286138982,
+        "true_positive": 0.23116531165311652
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.016092656197981167,
+        "true_positive": 0.23143631436314363
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.015448240539417011,
+        "true_positive": 0.23780487804878048
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.015444444444444443,
+        "true_positive": 0.2380758807588076
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.015363853982275036,
+        "true_positive": 0.23929539295392954
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.015341637470542506,
+        "true_positive": 0.23983739837398374
+    },
+    {
+        "false_positive": 0.8378378378378378,
+        "rev": "workspace",
+        "thersold": 0.01518759161552523,
+        "true_positive": 0.2410569105691057
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.015168278274740177,
+        "true_positive": 0.241869918699187
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.015006685783667881,
+        "true_positive": 0.24471544715447155
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.015,
+        "true_positive": 0.24525745257452575
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.014174605587649065,
+        "true_positive": 0.25474254742547425
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.014166666666666666,
+        "true_positive": 0.25501355013550137
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.013340453186105359,
+        "true_positive": 0.2638211382113821
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.013333333333333334,
+        "true_positive": 0.26422764227642276
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.01249410665462624,
+        "true_positive": 0.2749322493224932
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.01248834498834499,
+        "true_positive": 0.27520325203252033
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.012487423687423688,
+        "true_positive": 0.2753387533875339
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.012481962481962481,
+        "true_positive": 0.275609756097561
+    },
+    {
+        "false_positive": 0.8445945945945946,
+        "rev": "workspace",
+        "thersold": 0.01244115614659093,
+        "true_positive": 0.2760162601626016
+    },
+    {
+        "false_positive": 0.8513513513513513,
+        "rev": "workspace",
+        "thersold": 0.012437549378725848,
+        "true_positive": 0.2760162601626016
+    },
+    {
+        "false_positive": 0.8513513513513513,
+        "rev": "workspace",
+        "thersold": 0.012327062666445605,
+        "true_positive": 0.27791327913279135
+    },
+    {
+        "false_positive": 0.8581081081081081,
+        "rev": "workspace",
+        "thersold": 0.01232656893616646,
+        "true_positive": 0.27791327913279135
+    },
+    {
+        "false_positive": 0.8581081081081081,
+        "rev": "workspace",
+        "thersold": 0.012316859066859066,
+        "true_positive": 0.2781842818428184
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.01229873567096085,
+        "true_positive": 0.2781842818428184
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.011944444444444443,
+        "true_positive": 0.28319783197831977
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.011937513817969227,
+        "true_positive": 0.2834688346883469
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.011843957785134257,
+        "true_positive": 0.28523035230352306
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.011840267197681385,
+        "true_positive": 0.2855013550135501
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.011633018847799633,
+        "true_positive": 0.28888888888888886
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.01163170163170163,
+        "true_positive": 0.289159891598916
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.011534665817274511,
+        "true_positive": 0.29092140921409215
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.011527777777777777,
+        "true_positive": 0.29119241192411927
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.01115798050580659,
+        "true_positive": 0.2978319783197832
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.011151412313177018,
+        "true_positive": 0.2981029810298103
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.01113508271541167,
+        "true_positive": 0.2985094850948509
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.01111111111111111,
+        "true_positive": 0.29878048780487804
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.01084126984126984,
+        "true_positive": 0.30284552845528456
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.010825828439619142,
+        "true_positive": 0.30338753387533873
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.010246913580246911,
+        "true_positive": 0.31273712737127374
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.010238095238095237,
+        "true_positive": 0.3130081300813008
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.01014988763249633,
+        "true_positive": 0.31449864498644986
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.01014746855025493,
+        "true_positive": 0.31490514905149053
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.010010127976947197,
+        "true_positive": 0.31869918699186994
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.01,
+        "true_positive": 0.318970189701897
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.009739884571747277,
+        "true_positive": 0.32289972899728997
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.009736700336700335,
+        "true_positive": 0.3231707317073171
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.00967697467078272,
+        "true_positive": 0.3249322493224932
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.009676236044657097,
+        "true_positive": 0.3252032520325203
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.009666666666666667,
+        "true_positive": 0.325609756097561
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.009665985606143818,
+        "true_positive": 0.3258807588075881
+    },
+    {
+        "false_positive": 0.8648648648648649,
+        "rev": "workspace",
+        "thersold": 0.009625641025641027,
+        "true_positive": 0.32723577235772355
+    },
+    {
+        "false_positive": 0.8716216216216216,
+        "rev": "workspace",
+        "thersold": 0.009624691358024691,
+        "true_positive": 0.32723577235772355
+    },
+    {
+        "false_positive": 0.8716216216216216,
+        "rev": "workspace",
+        "thersold": 0.00930911680911681,
+        "true_positive": 0.3344173441734417
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.009289114088167273,
+        "true_positive": 0.4097560975609756
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.009155249936386133,
+        "true_positive": 0.41287262872628727
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.009143617319137298,
+        "true_positive": 0.4131436314363144
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.008975569358178052,
+        "true_positive": 0.4170731707317073
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.008975565750344701,
+        "true_positive": 0.4173441734417344
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.008903679653679653,
+        "true_positive": 0.41856368563685636
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.008888888888888889,
+        "true_positive": 0.4191056910569106
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.008888087468870608,
+        "true_positive": 0.41924119241192415
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.0088858634121916,
+        "true_positive": 0.4195121951219512
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.00881234924495794,
+        "true_positive": 0.4215447154471545
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.008800766283524905,
+        "true_positive": 0.42181571815718155
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.008595719095719096,
+        "true_positive": 0.4254742547425474
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.008586321925704866,
+        "true_positive": 0.4257452574525745
+    },
+    {
+        "false_positive": 0.9256756756756757,
+        "rev": "workspace",
+        "thersold": 0.008476190476190476,
+        "true_positive": 0.4289972899728997
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.008469175751784448,
+        "true_positive": 0.4289972899728997
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.008339580172913506,
+        "true_positive": 0.4314363143631436
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.008333333333333333,
+        "true_positive": 0.4317073170731707
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.00832070707070707,
+        "true_positive": 0.4321138211382114
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.008307171960368892,
+        "true_positive": 0.43265582655826557
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.008255540755540757,
+        "true_positive": 0.4345528455284553
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.008252988592371531,
+        "true_positive": 0.43482384823848236
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007991907358715678,
+        "true_positive": 0.4407859078590786
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.00797831440462887,
+        "true_positive": 0.44119241192411923
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007807936507936508,
+        "true_positive": 0.4459349593495935
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007807191730911146,
+        "true_positive": 0.4462059620596206
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007779457470633942,
+        "true_positive": 0.4464769647696477
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007777777777777778,
+        "true_positive": 0.4467479674796748
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007729016427190869,
+        "true_positive": 0.44850948509485095
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007725008274583229,
+        "true_positive": 0.44878048780487806
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007635832577009048,
+        "true_positive": 0.4505420054200542
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007619047619047619,
+        "true_positive": 0.4513550135501355
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007451437451437451,
+        "true_positive": 0.4543360433604336
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007450980392156863,
+        "true_positive": 0.4546070460704607
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007365079365079365,
+        "true_positive": 0.45663956639566394
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007346634846634846,
+        "true_positive": 0.45691056910569106
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007343434343434344,
+        "true_positive": 0.45718157181571817
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007333333333333334,
+        "true_positive": 0.4574525745257453
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007272909886678002,
+        "true_positive": 0.4592140921409214
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007272727272727272,
+        "true_positive": 0.4596205962059621
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007249723748478706,
+        "true_positive": 0.4602981029810298
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.0072397660818713456,
+        "true_positive": 0.4605691056910569
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.00722495871504262,
+        "true_positive": 0.4613821138211382
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007222222222222222,
+        "true_positive": 0.4616531165311653
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007185185185185185,
+        "true_positive": 0.46260162601626015
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007182539682539682,
+        "true_positive": 0.4630081300813008
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.00717948717948718,
+        "true_positive": 0.4631436314363144
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.0071794871794871795,
+        "true_positive": 0.4634146341463415
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007086116497881204,
+        "true_positive": 0.4640921409214092
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.007083333333333333,
+        "true_positive": 0.4643631436314363
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.0069696969696969695,
+        "true_positive": 0.4665311653116531
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006968482242818497,
+        "true_positive": 0.46680216802168023
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.0069600592994422394,
+        "true_positive": 0.4669376693766938
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006956521739130434,
+        "true_positive": 0.46747967479674796
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006954248366013072,
+        "true_positive": 0.4676151761517615
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006944444444444445,
+        "true_positive": 0.4678861788617886
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006924603174603174,
+        "true_positive": 0.46856368563685635
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.00691358024691358,
+        "true_positive": 0.468970189701897
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.0069085242325074014,
+        "true_positive": 0.46924119241192414
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006904761904761906,
+        "true_positive": 0.4695121951219512
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006670130454340981,
+        "true_positive": 0.4742547425474255
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006666666666666667,
+        "true_positive": 0.47913279132791325
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006564260112647209,
+        "true_positive": 0.48143631436314366
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.0065608465608465606,
+        "true_positive": 0.4817073170731707
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.0065339743589743595,
+        "true_positive": 0.48252032520325205
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.0065280067758328635,
+        "true_positive": 0.4827913279132791
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006518023874149916,
+        "true_positive": 0.4831978319783198
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006516786318473994,
+        "true_positive": 0.48360433604336045
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006333783175888439,
+        "true_positive": 0.4880758807588076
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.006333333333333333,
+        "true_positive": 0.48848238482384826
+    },
+    {
+        "false_positive": 0.9324324324324325,
+        "rev": "workspace",
+        "thersold": 0.005642588758530788,
+        "true_positive": 0.5033875338753387
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.005641824841824841,
+        "true_positive": 0.5033875338753387
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.005561080299011334,
+        "true_positive": 0.5051490514905149
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.005555555555555556,
+        "true_positive": 0.5055555555555555
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.005555555555555555,
+        "true_positive": 0.5062330623306233
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.005371066555277082,
+        "true_positive": 0.5102981029810298
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.005370370370370371,
+        "true_positive": 0.510569105691057
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.00517017856695276,
+        "true_positive": 0.516260162601626
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.005166666666666667,
+        "true_positive": 0.5165311653116531
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.005001670843776106,
+        "true_positive": 0.5214092140921409
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.005,
+        "true_positive": 0.5218157181571815
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004941102844299774,
+        "true_positive": 0.5239837398373983
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.00493939393939394,
+        "true_positive": 0.5246612466124662
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004919540229885058,
+        "true_positive": 0.5250677506775068
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004907407407407408,
+        "true_positive": 0.5253387533875339
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004788968036437993,
+        "true_positive": 0.5294037940379404
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0047777777777777775,
+        "true_positive": 0.5296747967479675
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004627672296489229,
+        "true_positive": 0.5330623306233062
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0046230158730158726,
+        "true_positive": 0.5333333333333333
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004494301994301995,
+        "true_positive": 0.536449864498645
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004493374741200829,
+        "true_positive": 0.5375338753387534
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0044826007326007325,
+        "true_positive": 0.5378048780487805
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004475108225108225,
+        "true_positive": 0.5380758807588076
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004444444444444445,
+        "true_positive": 0.5388888888888889
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0044444444444444444,
+        "true_positive": 0.5397018970189702
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0043640238704177325,
+        "true_positive": 0.5424119241192412
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004358540028231498,
+        "true_positive": 0.5426829268292683
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004341880341880342,
+        "true_positive": 0.5432249322493224
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004333333333333333,
+        "true_positive": 0.5434959349593496
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004185898646570787,
+        "true_positive": 0.5471544715447154
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004185175145326948,
+        "true_positive": 0.5474254742547425
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0041702741702741705,
+        "true_positive": 0.5478319783197833
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004166666666666667,
+        "true_positive": 0.5481029810298103
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0041039426523297486,
+        "true_positive": 0.5506775067750678
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004103504051103781,
+        "true_positive": 0.5509485094850949
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004001670843776107,
+        "true_positive": 0.5531165311653117
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.004,
+        "true_positive": 0.5533875338753388
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003968253968253968,
+        "true_positive": 0.5543360433604336
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003967938000696621,
+        "true_positive": 0.5546070460704607
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.00395959595959596,
+        "true_positive": 0.5550135501355014
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003952380952380952,
+        "true_positive": 0.5552845528455285
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0039459857499073185,
+        "true_positive": 0.5558265582655827
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003931542313895255,
+        "true_positive": 0.5563685636856368
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003902625152625152,
+        "true_positive": 0.558130081300813
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0039015151515151515,
+        "true_positive": 0.5584010840108401
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003803102453102453,
+        "true_positive": 0.5609756097560976
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0038000000000000004,
+        "true_positive": 0.5612466124661246
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003782140678914872,
+        "true_positive": 0.5619241192411925
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0037765567765567763,
+        "true_positive": 0.5624661246612466
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0037453014938825867,
+        "true_positive": 0.5636856368563685
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0037249417249417254,
+        "true_positive": 0.5639566395663956
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0037047397047397044,
+        "true_positive": 0.5644986449864499
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003703703703703704,
+        "true_positive": 0.564769647696477
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0036237373737373732,
+        "true_positive": 0.5670731707317073
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003623188405797101,
+        "true_positive": 0.5673441734417344
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003603729603729603,
+        "true_positive": 0.5682926829268292
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003591269841269841,
+        "true_positive": 0.5685636856368563
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0035721778022853295,
+        "true_positive": 0.5693766937669377
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0035714285714285713,
+        "true_positive": 0.5703252032520325
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0035244079449961805,
+        "true_positive": 0.5718157181571816
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0035238095238095237,
+        "true_positive": 0.5720867208672087
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003407407407407408,
+        "true_positive": 0.5753387533875339
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003407407407407407,
+        "true_positive": 0.5756097560975609
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0033333388691444954,
+        "true_positive": 0.5780487804878048
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0033333333333333335,
+        "true_positive": 0.5802168021680216
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003323359324236517,
+        "true_positive": 0.5804878048780487
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003288156288156288,
+        "true_positive": 0.5822493224932249
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003280056713046404,
+        "true_positive": 0.5827913279132791
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0032104377104377104,
+        "true_positive": 0.5857723577235773
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003205128205128205,
+        "true_positive": 0.5860433604336044
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0031784770784770784,
+        "true_positive": 0.5868563685636856
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0031746031746031746,
+        "true_positive": 0.5871273712737127
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0031253200204813102,
+        "true_positive": 0.5887533875338753
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003125228352210449,
+        "true_positive": 0.5890243902439024
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0031133480554533183,
+        "true_positive": 0.5895663956639566
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0031041448972483456,
+        "true_positive": 0.5899728997289972
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0030870279146141214,
+        "true_positive": 0.5906504065040651
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.003083676564727418,
+        "true_positive": 0.5909214092140921
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0030539591315453386,
+        "true_positive": 0.5928184281842819
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0030505984211866566,
+        "true_positive": 0.593089430894309
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0029886128364389236,
+        "true_positive": 0.5955284552845529
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0029881664885355254,
+        "true_positive": 0.5957994579945799
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0029876354582236936,
+        "true_positive": 0.5959349593495935
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.0029788359788359784,
+        "true_positive": 0.5962059620596206
+    },
+    {
+        "false_positive": 0.9391891891891891,
+        "rev": "workspace",
+        "thersold": 0.002964319630986298,
+        "true_positive": 0.5968834688346883
+    },
+    {
+        "false_positive": 0.9459459459459459,
+        "rev": "workspace",
+        "thersold": 0.0029621848739495795,
+        "true_positive": 0.5968834688346883
+    },
+    {
+        "false_positive": 0.9459459459459459,
+        "rev": "workspace",
+        "thersold": 0.002958974358974359,
+        "true_positive": 0.5970189701897018
+    },
+    {
+        "false_positive": 0.9459459459459459,
+        "rev": "workspace",
+        "thersold": 0.00295603323879186,
+        "true_positive": 0.597289972899729
+    },
+    {
+        "false_positive": 0.9459459459459459,
+        "rev": "workspace",
+        "thersold": 0.0028857142857142857,
+        "true_positive": 0.5998644986449865
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002875876846465082,
+        "true_positive": 0.5998644986449865
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002864357864357864,
+        "true_positive": 0.6005420054200542
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0028614718614718613,
+        "true_positive": 0.6008130081300813
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002857142857142857,
+        "true_positive": 0.6012195121951219
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0028329198841070317,
+        "true_positive": 0.6018970189701897
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0028243021346469623,
+        "true_positive": 0.6023035230352304
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0028055434761317115,
+        "true_positive": 0.6032520325203252
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002801326187189521,
+        "true_positive": 0.6035230352303523
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0028000835421888057,
+        "true_positive": 0.6036585365853658
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0027985347985347987,
+        "true_positive": 0.603929539295393
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002796092796092796,
+        "true_positive": 0.6042005420054201
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0027905639430140334,
+        "true_positive": 0.6059620596205962
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0027787114845938374,
+        "true_positive": 0.6065040650406504
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002777777777777778,
+        "true_positive": 0.6067750677506775
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0027777777777777775,
+        "true_positive": 0.6077235772357723
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002746925779534475,
+        "true_positive": 0.6085365853658536
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0027363636363636366,
+        "true_positive": 0.6088075880758808
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0027292663476874007,
+        "true_positive": 0.609349593495935
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0027284227473980795,
+        "true_positive": 0.6096205962059621
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0027222222222222222,
+        "true_positive": 0.6098915989159892
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002719298245614035,
+        "true_positive": 0.6101626016260162
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0027106227106227106,
+        "true_positive": 0.6105691056910569
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002706971677559913,
+        "true_positive": 0.6109756097560975
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0026726538568643834,
+        "true_positive": 0.6131436314363143
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002666666666666667,
+        "true_positive": 0.6143631436314363
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002615541082360304,
+        "true_positive": 0.6169376693766938
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.00261437908496732,
+        "true_positive": 0.6172086720867209
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0025507897156308245,
+        "true_positive": 0.6201897018970189
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0025505050505050504,
+        "true_positive": 0.620460704607046
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002508529741863075,
+        "true_positive": 0.6219512195121951
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0025,
+        "true_positive": 0.6222222222222222
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0024951899951899956,
+        "true_positive": 0.6230352303523036
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0024888888888888886,
+        "true_positive": 0.6233062330623306
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0024398046398046397,
+        "true_positive": 0.6242547425474255
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002438888888888889,
+        "true_positive": 0.6245257452574525
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0024313186813186816,
+        "true_positive": 0.6249322493224932
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0024266221108326367,
+        "true_positive": 0.625609756097561
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002402756630342837,
+        "true_positive": 0.6269647696476964
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0024,
+        "true_positive": 0.6272357723577235
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002279962013295347,
+        "true_positive": 0.6314363143631436
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0022769567597153806,
+        "true_positive": 0.6317073170731707
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0022231559290382817,
+        "true_positive": 0.6346883468834689
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0022222222222222222,
+        "true_positive": 0.6356368563685637
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0022016926428691133,
+        "true_positive": 0.6368563685636857
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0022,
+        "true_positive": 0.6371273712737128
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0021774891774891773,
+        "true_positive": 0.637940379403794
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002175291375291376,
+        "true_positive": 0.6382113821138211
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0021711366538952745,
+        "true_positive": 0.6386178861788618
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002169059011164274,
+        "true_positive": 0.6388888888888888
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0021513269339356296,
+        "true_positive": 0.6399728997289973
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0021428571428571425,
+        "true_positive": 0.6405149051490515
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0021338383838383837,
+        "true_positive": 0.6410569105691057
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0021296296296296293,
+        "true_positive": 0.6414634146341464
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002128520225294419,
+        "true_positive": 0.6417344173441735
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002111111111111111,
+        "true_positive": 0.6424119241192412
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002105263157894737,
+        "true_positive": 0.6428184281842818
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002090909090909091,
+        "true_positive": 0.6434959349593496
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0020863636363636366,
+        "true_positive": 0.6437669376693766
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0020835058661145614,
+        "true_positive": 0.6439024390243903
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0020833333333333333,
+        "true_positive": 0.6441734417344174
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0020736159034031375,
+        "true_positive": 0.6449864498644986
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002072488914594178,
+        "true_positive": 0.6453929539295393
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002066365007541478,
+        "true_positive": 0.6456639566395664
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0020634920634920637,
+        "true_positive": 0.646070460704607
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002061191626409018,
+        "true_positive": 0.6463414634146342
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0020592592592592594,
+        "true_positive": 0.6466124661246613
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.002035714285714286,
+        "true_positive": 0.6474254742547425
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0020317460317460317,
+        "true_positive": 0.6476964769647696
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001988347086771693,
+        "true_positive": 0.6495934959349593
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001986487959028005,
+        "true_positive": 0.6504065040650406
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0019619883040935676,
+        "true_positive": 0.6514905149051491
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0019582846003898635,
+        "true_positive": 0.6520325203252032
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0019365079365079366,
+        "true_positive": 0.6540650406504065
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0019333333333333331,
+        "true_positive": 0.6543360433604336
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0019249512670565302,
+        "true_positive": 0.6548780487804878
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0019229390681003585,
+        "true_positive": 0.6554200542005421
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001918510043224002,
+        "true_positive": 0.6555555555555556
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0019172113289760346,
+        "true_positive": 0.6558265582655827
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0019086247086247089,
+        "true_positive": 0.6562330623306233
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0019047619047619048,
+        "true_positive": 0.6565040650406504
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0018893387314439947,
+        "true_positive": 0.6567750677506775
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0018888888888888887,
+        "true_positive": 0.6570460704607046
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001860381593714927,
+        "true_positive": 0.6585365853658537
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0018589743589743591,
+        "true_positive": 0.6588075880758808
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0018549344375431332,
+        "true_positive": 0.6589430894308943
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001851851851851852,
+        "true_positive": 0.6592140921409214
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001842403109222331,
+        "true_positive": 0.6602981029810298
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0018390804597701149,
+        "true_positive": 0.6605691056910569
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001818181818181818,
+        "true_positive": 0.6612466124661247
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001814278046162104,
+        "true_positive": 0.6615176151761517
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0018050065876152833,
+        "true_positive": 0.6617886178861788
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0018028985507246376,
+        "true_positive": 0.6624661246612467
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0017929181929181928,
+        "true_positive": 0.6627371273712737
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0017857142857142857,
+        "true_positive": 0.6631436314363144
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.00177953216374269,
+        "true_positive": 0.6638211382113821
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0017777777777777776,
+        "true_positive": 0.664769647696477
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001769934640522876,
+        "true_positive": 0.6650406504065041
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0017654808959156787,
+        "true_positive": 0.6654471544715447
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0017634680134680132,
+        "true_positive": 0.6657181571815718
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0017059483726150392,
+        "true_positive": 0.6676151761517615
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0017050068588821236,
+        "true_positive": 0.6678861788617886
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0016691873361564832,
+        "true_positive": 0.6693766937669376
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0016666666666666668,
+        "true_positive": 0.6711382113821138
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0016477272727272727,
+        "true_positive": 0.6722222222222223
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0016444444444444443,
+        "true_positive": 0.6738482384823848
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001644133644133644,
+        "true_positive": 0.674119241192412
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0016167471819645734,
+        "true_positive": 0.6750677506775068
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001615368829346255,
+        "true_positive": 0.6753387533875339
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0016125541125541125,
+        "true_positive": 0.6754742547425474
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0016111111111111111,
+        "true_positive": 0.6757452574525745
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0015797101449275361,
+        "true_positive": 0.6766937669376694
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001574074074074074,
+        "true_positive": 0.6769647696476965
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0015698860526446733,
+        "true_positive": 0.6773712737127371
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.001568627450980392,
+        "true_positive": 0.6777777777777778
+    },
+    {
+        "false_positive": 0.9527027027027027,
+        "rev": "workspace",
+        "thersold": 0.0015608465608465607,
+        "true_positive": 0.6781842818428184
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.001560641386524455,
+        "true_positive": 0.6781842818428184
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.001539135194307608,
+        "true_positive": 0.6789972899728998
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0015384615384615385,
+        "true_positive": 0.6795392953929539
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0015308641975308641,
+        "true_positive": 0.6799457994579946
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0015277777777777776,
+        "true_positive": 0.6802168021680217
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.001527170868347339,
+        "true_positive": 0.6804878048780488
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0015261659463709617,
+        "true_positive": 0.6808943089430894
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0015181359878274582,
+        "true_positive": 0.6811653116531166
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0015176052018157282,
+        "true_positive": 0.6814363143631437
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0015023973571372006,
+        "true_positive": 0.6823848238482385
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0015019762845849803,
+        "true_positive": 0.6826558265582656
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0014947089947089946,
+        "true_positive": 0.6834688346883468
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0014930402930402932,
+        "true_positive": 0.683739837398374
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.00148341384863124,
+        "true_positive": 0.6841463414634147
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0014814814814814814,
+        "true_positive": 0.6845528455284553
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0014682539682539682,
+        "true_positive": 0.6850948509485095
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0014652014652014652,
+        "true_positive": 0.6853658536585366
+    },
+    {
+        "false_positive": 0.9594594594594594,
+        "rev": "workspace",
+        "thersold": 0.0014509803921568627,
+        "true_positive": 0.6863143631436315
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.001442495126705653,
+        "true_positive": 0.6863143631436315
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0014294562120649077,
+        "true_positive": 0.6873983739837398
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0014285714285714286,
+        "true_positive": 0.6876693766937669
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.001421911421911422,
+        "true_positive": 0.6878048780487804
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0014192343604108309,
+        "true_positive": 0.6880758807588075
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0014065934065934065,
+        "true_positive": 0.6888888888888889
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.001400966183574879,
+        "true_positive": 0.6892953929539295
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.001388888888888889,
+        "true_positive": 0.6899728997289973
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013888888888888887,
+        "true_positive": 0.690379403794038
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013777777777777777,
+        "true_positive": 0.6907859078590786
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.001369047619047619,
+        "true_positive": 0.6915989159891599
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013409961685823756,
+        "true_positive": 0.6928184281842819
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013333333333333335,
+        "true_positive": 0.6952574525745258
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013333333333333333,
+        "true_positive": 0.6955284552845529
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013286713286713289,
+        "true_positive": 0.69579945799458
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013261648745519713,
+        "true_positive": 0.6960704607046071
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013131313131313131,
+        "true_positive": 0.6963414634146341
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013128205128205127,
+        "true_positive": 0.6971544715447154
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013095238095238095,
+        "true_positive": 0.697560975609756
+    },
+    {
+        "false_positive": 0.9662162162162162,
+        "rev": "workspace",
+        "thersold": 0.0013037037037037038,
+        "true_positive": 0.6979674796747968
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0013001813001813,
+        "true_positive": 0.6979674796747968
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.001296296296296296,
+        "true_positive": 0.6982384823848239
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.001282051282051282,
+        "true_positive": 0.6986449864498645
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012819185645272602,
+        "true_positive": 0.698780487804878
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012777777777777776,
+        "true_positive": 0.6991869918699187
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012706007442849548,
+        "true_positive": 0.6994579945799458
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012698412698412698,
+        "true_positive": 0.699728997289973
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012599206349206348,
+        "true_positive": 0.7002710027100271
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012592592592592592,
+        "true_positive": 0.7005420054200542
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012556776556776558,
+        "true_positive": 0.7006775067750678
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012554112554112554,
+        "true_positive": 0.7010840108401084
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.001237000547345375,
+        "true_positive": 0.7018970189701897
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012345679012345679,
+        "true_positive": 0.7021680216802167
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.001230475855189814,
+        "true_positive": 0.7024390243902439
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.00123015873015873,
+        "true_positive": 0.702710027100271
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012261072261072262,
+        "true_positive": 0.7031165311653117
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012254901960784314,
+        "true_positive": 0.7035230352303523
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012229885057471264,
+        "true_positive": 0.7036585365853658
+    },
+    {
+        "false_positive": 0.972972972972973,
+        "rev": "workspace",
+        "thersold": 0.0012222222222222224,
+        "true_positive": 0.7039295392953929
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.001219047619047619,
+        "true_positive": 0.7046070460704607
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0012133480554533185,
+        "true_positive": 0.7050135501355014
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0012131329350794945,
+        "true_positive": 0.7052845528455285
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0012121212121212121,
+        "true_positive": 0.7063685636856368
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0012111111111111112,
+        "true_positive": 0.7066395663956639
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0012060606060606061,
+        "true_positive": 0.7071815718157182
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0012012987012987011,
+        "true_positive": 0.7073170731707317
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.001199294532627866,
+        "true_positive": 0.7075880758807588
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011794871794871796,
+        "true_positive": 0.7085365853658536
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011764705882352942,
+        "true_positive": 0.7089430894308943
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011757575757575757,
+        "true_positive": 0.7096205962059621
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011674347158218126,
+        "true_positive": 0.7097560975609756
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011666666666666665,
+        "true_positive": 0.7102981029810298
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.001160968660968661,
+        "true_positive": 0.7107046070460704
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011594202898550724,
+        "true_positive": 0.7109756097560975
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011579975579975581,
+        "true_positive": 0.7111111111111111
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011560044893378226,
+        "true_positive": 0.7115176151761518
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011484409310496269,
+        "true_positive": 0.712059620596206
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.001145648146997378,
+        "true_positive": 0.7123306233062331
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.001140023422632118,
+        "true_positive": 0.7128726287262873
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011381306865177834,
+        "true_positive": 0.7130081300813008
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011363636363636365,
+        "true_positive": 0.7136856368563685
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011111111111111113,
+        "true_positive": 0.7151761517615176
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011111111111111111,
+        "true_positive": 0.7191056910569106
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011091337623126132,
+        "true_positive": 0.7193766937669377
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011030303030303032,
+        "true_positive": 0.7200542005420054
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0011,
+        "true_positive": 0.7203252032520325
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0010701019860440148,
+        "true_positive": 0.7214092140921409
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0010666666666666667,
+        "true_positive": 0.7222222222222222
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.001053946053946054,
+        "true_positive": 0.7228997289972899
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0010526315789473684,
+        "true_positive": 0.7234417344173442
+    },
+    {
+        "false_positive": 0.9797297297297297,
+        "rev": "workspace",
+        "thersold": 0.0010493827160493825,
+        "true_positive": 0.7237127371273713
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0010483870967741935,
+        "true_positive": 0.7237127371273713
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.001047008547008547,
+        "true_positive": 0.7238482384823848
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0010461538461538462,
+        "true_positive": 0.7245257452574526
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.001031045751633987,
+        "true_positive": 0.7253387533875338
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0010256410256410256,
+        "true_positive": 0.7266937669376694
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0010185185185185184,
+        "true_positive": 0.72710027100271
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0010175438596491228,
+        "true_positive": 0.7275067750677506
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0010095238095238093,
+        "true_positive": 0.7279132791327914
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.001009374185817028,
+        "true_positive": 0.728319783197832
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0010000000000000002,
+        "true_positive": 0.7285907859078591
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.001,
+        "true_positive": 0.7291327913279133
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009971509971509972,
+        "true_positive": 0.7292682926829268
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.000992063492063492,
+        "true_positive": 0.7296747967479674
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009842995169082125,
+        "true_positive": 0.7300813008130081
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.00097953216374269,
+        "true_positive": 0.7303523035230353
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009764309764309765,
+        "true_positive": 0.7307588075880759
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009731884057971015,
+        "true_positive": 0.731029810298103
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009565217391304348,
+        "true_positive": 0.7318428184281843
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009523809523809524,
+        "true_positive": 0.7346883468834688
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009500805152979065,
+        "true_positive": 0.734959349593496
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009350041771094403,
+        "true_positive": 0.7357723577235772
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009333333333333334,
+        "true_positive": 0.7361788617886179
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009230769230769232,
+        "true_positive": 0.7367208672086721
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009195402298850574,
+        "true_positive": 0.7384823848238482
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009108911077622513,
+        "true_positive": 0.7387533875338753
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.000909090909090909,
+        "true_positive": 0.739159891598916
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0009009661835748793,
+        "true_positive": 0.739430894308943
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008971704623878537,
+        "true_positive": 0.7398373983739838
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008965517241379309,
+        "true_positive": 0.7399728997289973
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008928571428571428,
+        "true_positive": 0.7405149051490515
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008913308913308913,
+        "true_positive": 0.7407859078590786
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008888888888888888,
+        "true_positive": 0.7420054200542006
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008827404479578394,
+        "true_positive": 0.7422764227642277
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008683473389355742,
+        "true_positive": 0.7430894308943089
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008666666666666667,
+        "true_positive": 0.743360433604336
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.000863697705802969,
+        "true_positive": 0.7436314363143631
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008612836438923395,
+        "true_positive": 0.7441734417344174
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008454106280193237,
+        "true_positive": 0.7444444444444445
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008441558441558443,
+        "true_positive": 0.7447154471544716
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008421516754850087,
+        "true_positive": 0.7448509485094851
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008333333333333334,
+        "true_positive": 0.7479674796747967
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008231884057971014,
+        "true_positive": 0.7486449864498645
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008222222222222221,
+        "true_positive": 0.7490514905149052
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008201058201058201,
+        "true_positive": 0.7491869918699187
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008158508158508159,
+        "true_positive": 0.7494579945799458
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0008024691358024691,
+        "true_positive": 0.7495934959349594
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007968574635241302,
+        "true_positive": 0.7501355013550135
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007919191919191919,
+        "true_positive": 0.7504065040650406
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007905982905982905,
+        "true_positive": 0.7510840108401085
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007854406130268199,
+        "true_positive": 0.7516260162601626
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007843605669692627,
+        "true_positive": 0.7517615176151762
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.000784313725490196,
+        "true_positive": 0.7532520325203252
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007792207792207792,
+        "true_positive": 0.7537940379403794
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007545764154959557,
+        "true_positive": 0.7547425474254743
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007539682539682539,
+        "true_positive": 0.7551490514905149
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007496251874062968,
+        "true_positive": 0.7552845528455284
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007407407407407407,
+        "true_positive": 0.7589430894308943
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007142857142857143,
+        "true_positive": 0.7598915989159891
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007017543859649122,
+        "true_positive": 0.7602981029810298
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0007008547008547009,
+        "true_positive": 0.7604336043360433
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0006944444444444444,
+        "true_positive": 0.7609756097560976
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.000689655172413793,
+        "true_positive": 0.7617886178861789
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0006842105263157894,
+        "true_positive": 0.7620596205962059
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.0006782106782106782,
+        "true_positive": 0.7631436314363144
+    },
+    {
+        "false_positive": 0.9864864864864865,
+        "rev": "workspace",
+        "thersold": 0.000673076923076923,
+        "true_positive": 0.763550135501355
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006699346405228758,
+        "true_positive": 0.763550135501355
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006666666666666668,
+        "true_positive": 0.766260162601626
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006546644844517185,
+        "true_positive": 0.7665311653116531
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006507936507936508,
+        "true_positive": 0.7666666666666667
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.000648148148148148,
+        "true_positive": 0.7669376693766937
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006388888888888888,
+        "true_positive": 0.7673441734417344
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006363636363636364,
+        "true_positive": 0.7676151761517616
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006349206349206349,
+        "true_positive": 0.7688346883468835
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006286549707602338,
+        "true_positive": 0.7692411924119241
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006231884057971014,
+        "true_positive": 0.7695121951219512
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006220419202163624,
+        "true_positive": 0.7696476964769647
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006175438596491228,
+        "true_positive": 0.7699186991869919
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006172839506172839,
+        "true_positive": 0.7700542005420055
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006111111111111112,
+        "true_positive": 0.7703252032520326
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006073153899240855,
+        "true_positive": 0.7704607046070461
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006072106261859583,
+        "true_positive": 0.7707317073170732
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0006060606060606061,
+        "true_positive": 0.7731707317073171
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005802469135802469,
+        "true_positive": 0.7739837398373983
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005797101449275362,
+        "true_positive": 0.7749322493224933
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005773420479302832,
+        "true_positive": 0.7750677506775068
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005714285714285715,
+        "true_positive": 0.7757452574525745
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005594405594405594,
+        "true_positive": 0.7761517615176152
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005565217391304348,
+        "true_positive": 0.7765582655826558
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005555555555555556,
+        "true_positive": 0.7798102981029811
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005462653288740246,
+        "true_positive": 0.7799457994579946
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005441643323996265,
+        "true_positive": 0.7804878048780488
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005367686527106817,
+        "true_positive": 0.7807588075880759
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005341880341880341,
+        "true_positive": 0.781029810298103
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005341717269209932,
+        "true_positive": 0.7811653116531165
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005333333333333334,
+        "true_positive": 0.782249322493225
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005279503105590061,
+        "true_positive": 0.7826558265582656
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005158730158730159,
+        "true_positive": 0.7830623306233062
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005128205128205128,
+        "true_positive": 0.7863143631436315
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005076628352490422,
+        "true_positive": 0.786449864498645
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005047619047619047,
+        "true_positive": 0.7867208672086721
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0005033238366571699,
+        "true_positive": 0.7868563685636857
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.000496551724137931,
+        "true_positive": 0.7871273712737127
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004945054945054945,
+        "true_positive": 0.7872628726287263
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004938271604938272,
+        "true_positive": 0.7878048780487805
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004918752744839702,
+        "true_positive": 0.787940379403794
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004850088183421516,
+        "true_positive": 0.7882113821138211
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004786324786324786,
+        "true_positive": 0.7883468834688346
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004767986377181779,
+        "true_positive": 0.7890243902439025
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004761904761904762,
+        "true_positive": 0.7915989159891599
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004714640198511166,
+        "true_positive": 0.7917344173441735
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00046798029556650243,
+        "true_positive": 0.7920054200542005
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004597701149425287,
+        "true_positive": 0.7929539295392954
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004531490015360983,
+        "true_positive": 0.7930894308943089
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004444444444444444,
+        "true_positive": 0.7936314363143632
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0004166666666666667,
+        "true_positive": 0.7952574525745257
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00040404040404040404,
+        "true_positive": 0.7955284552845528
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00040023894862604536,
+        "true_positive": 0.7956639566395663
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.000392156862745098,
+        "true_positive": 0.7975609756097561
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00037037037037037035,
+        "true_positive": 0.7983739837398374
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0003333333333333334,
+        "true_positive": 0.8018970189701897
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00031746031746031746,
+        "true_positive": 0.80420054200542
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0003114564580119807,
+        "true_positive": 0.8043360433604336
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00030303030303030303,
+        "true_positive": 0.8082655826558266
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0002898550724637681,
+        "true_positive": 0.8119241192411925
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0002777777777777778,
+        "true_positive": 0.817479674796748
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0002666666666666667,
+        "true_positive": 0.8205962059620596
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0002564102564102564,
+        "true_positive": 0.8235772357723578
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0002543364699453259,
+        "true_positive": 0.8237127371273713
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0002469135802469136,
+        "true_positive": 0.8256097560975609
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00024073613054936984,
+        "true_positive": 0.825880758807588
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0002380952380952381,
+        "true_positive": 0.8273712737127371
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00022988505747126436,
+        "true_positive": 0.8292682926829268
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0002222222222222222,
+        "true_positive": 0.8315718157181572
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00021505376344086021,
+        "true_positive": 0.8321138211382114
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00020202020202020202,
+        "true_positive": 0.832520325203252
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0001897201017885822,
+        "true_positive": 0.8327913279132791
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00018518518518518518,
+        "true_positive": 0.8333333333333334
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00018445045014884914,
+        "true_positive": 0.8334688346883469
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.0001753082999161578,
+        "true_positive": 0.8340108401084011
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00016445540291965091,
+        "true_positive": 0.8341463414634146
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 0.00015064891356934016,
+        "true_positive": 0.8349593495934959
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 9.169363538295577e-05,
+        "true_positive": 0.8357723577235773
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 7.119247393846937e-05,
+        "true_positive": 0.8361788617886179
+    },
+    {
+        "false_positive": 0.9932432432432432,
+        "rev": "workspace",
+        "thersold": 5.8479532163742686e-05,
+        "true_positive": 0.8365853658536585
+    },
+    {
+        "false_positive": 1.0,
+        "rev": "workspace",
+        "thersold": 0.0,
+        "true_positive": 1.0
+    }
+]
+    },
+    "title": "",
+    "width": 300,
+    "height": 300,
+    "mark": {
+        "type": "line"
+    },
+    "encoding": {
+        "x": {
+            "field": "false_positive",
+            "type": "quantitative",
+            "title": "false_positive"
+        },
+        "y": {
+            "field": "true_positive",
+            "type": "quantitative",
+            "title": "true_positive",
+            "scale": {
+                "zero": false
+            }
+        },
+        "color": {
+            "field": "rev",
+            "type": "nominal"
+        }
+    }
+}
+;
+    vegaEmbed('#plot0', spec);
+</script>
+</body>
+</html>

@@ -40,12 +40,13 @@ def main(config_path, params_path):
 
     model=joblib.load(model_path)
     predicted_out=model.predict(X)
+    predicted_out_prob=model.predict_proba(X)
     score=model.score(X,label)
     roc_auc=roc_auc_score(label,predicted_out)
 
     average_precision=average_precision_score(label,predicted_out)
 
-    precision,recall,prc_thersold=precision_recall_curve(label,predicted_out)
+    precision,recall,prc_thersold=precision_recall_curve(label,predicted_out_prob[:,1])
 
     min,max=1,5
     n_th=random.randint(min, max)
@@ -58,7 +59,7 @@ def main(config_path, params_path):
         ]
     }
 
-    tp,fp,thersold=roc_curve(label,predicted_out)
+    tp,fp,thersold=roc_curve(label,predicted_out_prob[:,1])
 
     roc_dict={
         "prc":[
